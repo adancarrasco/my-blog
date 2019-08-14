@@ -31,14 +31,14 @@ One problem, the automation script was written in Python but the scripts we run 
 ####JavaScript
 Was just matter of defining a run script in our package.json file:
 
-```JavaScript
+```js
     "deploy-to-monolith": "node deployToMonolith.js"
 ```
 
 That's it, now we have to put some JS code in action to run our .py script files:
 deployToMonolith.js
 
-```JavaScript
+```js
 const { PythonShell } = require("python-shell")
 const REACT_PROJECT_FOLDER_NAME = "myReactApp"
 const scriptPath = "./monolith-integration"

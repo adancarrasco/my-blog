@@ -11,10 +11,3 @@ main p {
   font-size: 18px;
   font-weight: 200;
 }
-
-div[data-language="python"],
-div[data-language="javascript"] {
-  overflow-x: scroll;
-  background-color: #dededebb;
-  padding: 1em;
-}

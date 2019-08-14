@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import { rhythm, scale } from "../utils/typography"
-
+// import "gatsby-remark-vscode/styles.css"
 import "../styles/global.css"
 
 class Layout extends React.Component {
