@@ -13,10 +13,7 @@ Right now we have a big project, decouple a monolith to micro services for the b
 1. Build the files in the React Projects
 1. Copy those files to the monolith source code
 1. Update the references to these files in the resources file (because our project version has changed and our Webpack bundle files have changed too)
-1. We are ready to refresh the browser and see our React changes on top of the monolith
-
-   These tasks were done several times before we could say it was ready to be merged and create the PR (which is another step we repeatedly did)
-
+1. We are ready to refresh the browser and see our React changes on top of the monolith (These tasks were done several times before we could say it was ready to be merged and create the PR [which is another step we repeatedly did])
 1. Create Pull Request with React changes on top of the monolith with the package version updated
 1. Update the Git Tag
 
