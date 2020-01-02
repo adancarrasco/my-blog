@@ -10,7 +10,7 @@ Over the last decade Front End changed a lot, and nowadays even tough the FE Fra
 
 ## Micro FrontEnds
 
-The trend topic in FE Development. Micro Front Ends (MFEs) started as a proposal to prevent having a monolith in the FE side, since the FE layer has been increasing in complexity during the last 5 years there's been the necessesity to make it bigger as a whole taking care of performance and trying to make it feel as Rich Application, this means no lag or waits. Having a huge codebase in the FE has made the projects hard to scale, so what MFE propses is to have isolated your Application typically by domains, this means dividing your application in modules simulating the MicroServices architecture (which is the solution for the BE monolith).
+The trend topic in FE Development. Micro Front Ends (MFEs) started as a proposal to prevent having a monolith in the FE side, since the FE layer has been increasing in complexity during the last 5 years there's been the necessity to make it bigger as a whole taking care of performance and trying to make it feel as Rich Application, this means no lag or waits. Having a huge codebase in the FE has made the projects hard to scale, so what MFE proposes is to have isolated your Application typically by domains, this means dividing your application in modules simulating the MicroServices architecture (which is the solution for the BE monolith).
 
 One of the main advantages of MFEs is to have different projects, so you can have different teams, technologies, deployments, versions, etc and even different frameworks/libraries such as Angular, VueJS, ReactJS (mentioning the most popular ones).
 
